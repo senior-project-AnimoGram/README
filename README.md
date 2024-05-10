@@ -2,6 +2,7 @@
 AnimoGram-ReadMe
 
 ## 프로젝트 개요
+**Animogram** : A compound word of animal, emotion, and instagram; a SNS that shares photos that recognize the emotions of your pets.
 
 ## Installation 환경
 
@@ -9,4 +10,4 @@ AnimoGram-ReadMe
 
 ## AI Model
 
-## 예제코
+## 예제코드 
