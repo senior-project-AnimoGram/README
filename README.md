@@ -33,7 +33,7 @@
     + Third, to prevent overfitting, we use a dropout layer and apply a dropout rate of 20%.
   + The final output layer has neurons corresponding to the number of dog breeds and performs multiple classification using a Softmax activation function.
  
-+ Model training
++ Model Training
   + Data Preparation and Augmentation : Load and preprocess image data using ImageDataGenerator.
   + Construct training and validation datasets : By using flow_from_directory method
   + Take advantage of pre-trained models : Load InceptionV3 model with pretrained weights (imagenet)
@@ -41,14 +41,40 @@
   + Compilation and callback settings : val_accuracy, val_loss, ReduceLROnPlateau, EarlyStopping
 
 + Performance Evaluation : Accuracy of the model is 94.3396%
-![image](https://github.com/senior-project-AnimoGram/README/assets/98259281/773a4516-7541-4b2b-914b-32a8ed372df8)
-![image](https://github.com/senior-project-AnimoGram/README/assets/98259281/48eb1f70-e104-4fc8-b0ca-9d0fc8d36e09)
+
+![image](https://github.com/senior-project-AnimoGram/README/assets/98259281/e4e3a6e7-ee84-4cd6-9ae7-f6d024064606)
+
+
+
+
+![image](https://github.com/senior-project-AnimoGram/README/assets/98259281/a3689437-8096-452b-afc1-0cc023a616f0)
+
+
++ Dataset : <https://www.kaggle.com/datasets/devzohaib/dog-emotions-prediction>
+  + 15900 images with 4 categories of emotion
+
+
++ Base Model : VGG16
+  + Using 3x3 filter
+
++ Model Training
+  + Data Loading : Load image data from dataset_path
+  + Pretrained Model Loading(VGG16) : By using tf.keras.applications.vgg16 function
+  + Model Composition : Define VGG16 as Sequential model, Add Flatten() layer and Dense() layer
+  + Model Training : The model is compiled with a 'sparse_categorical_crossentropy' loss function and the 'adam' optimizer.
+  + Save results : training history of the model is stored in the ‘hist’ variable
+
++ Performance Evaluation
+  + Training accuracy steadily increases, reaching approximately 75%.
+  + Verification accuracy is not improving significantly at around 50%.
+    
+![image](https://github.com/senior-project-AnimoGram/README/assets/98259281/bd361410-d0d6-4436-b863-afd9bfac1d22)
 
 
 
 
 
-![image](https://github.com/senior-project-AnimoGram/README/assets/98259281/b2fef6c8-9796-4b61-a3c8-3e9f46e58af3)
+
 
 
 
