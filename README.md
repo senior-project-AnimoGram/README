@@ -16,6 +16,9 @@
 ## Installation 환경
 
 ## Library
++ Dog face recognition : <https://github.com/tureckova/Doggie-smile>
++ *dlib* for loading dog face recognition model
++ *cv2* for image processing
 
 ## AI Model
 ![image](https://github.com/senior-project-AnimoGram/README/assets/98259281/fae28300-3662-4d87-86f2-354d8afc1e3d)
