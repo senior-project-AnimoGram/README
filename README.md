@@ -13,6 +13,10 @@
 + Provide filters that fit the emotions
 
 + Provide statistics on emotional changes according to location
+
+## 앱 아키텍쳐
+![animogram_architecture](https://github.com/senior-project-AnimoGram/README/blob/main/architecture.jpg?raw=true)
+
 ## Installation 환경
 
 ## Library
