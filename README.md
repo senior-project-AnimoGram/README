@@ -109,7 +109,7 @@ Animogram, a compound word of animal, emotion, and Instagram, is the perfect pro
 👨‍💻조윤상 
 
 🙋‍♂️구건호
-
+  qwer159874@gachon.ac.kr
 💁‍♀️이라연 
   layeon0218@gmail.com
 
