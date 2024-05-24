@@ -58,7 +58,7 @@ Animogram, a compound word of animal, emotion, and Instagram, is the perfect pro
   + 541 images with 8 categories of breeds
  
   
-+ Base Model : Inception V3 Model
++ Base Model : Resnet50V2
   + Pre-trained weights up to mixed10 layers were used.
   + For transfer learning, a custom top layer was added to the last output layer of the pretrained model.
   + In the custom top layer,
