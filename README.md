@@ -41,7 +41,7 @@ Before you begin, ensure you have met the following requirements:
   Ensure you have Flutter installed on your machine. You can download it from the Flutter official website.
 + **Dart SDK**:
 
-  Dart SDK is included with Flutter. Ensure you are using a version compatible with the Flutter SDK specified in this project (>=2.19.2 <3.0.0).
+  Dart SDK is included with Flutter. Ensure you are using a version compatible with the Flutter SDK specified in this project (**'>=2.19.2 <3.0.0'**).
 + **Android Studio / Xcode**:
 
   To build and run the app on an emulator or a physical device, you will need Android Studio for Android development and Xcode for iOS development.
