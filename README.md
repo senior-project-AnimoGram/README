@@ -34,18 +34,74 @@ Animogram, a compound word of animal, emotion, and Instagram, is the perfect pro
 ## Getting Started
 
 ### Prerequisites
- ```
-   ```
+Before you begin, ensure you have met the following requirements:
+
++ **Flutter SDK**:
+
+  Ensure you have Flutter installed on your machine. You can download it from the Flutter official website.
++ **Dart SDK**:
+
+  Dart SDK is included with Flutter. Ensure you are using a version compatible with the Flutter SDK specified in this project (>=2.19.2 <3.0.0).
++ **Android Studio / Xcode**:
+
+  To build and run the app on an emulator or a physical device, you will need Android Studio for Android development and Xcode for iOS development.
++ **Git**:
+
+  Ensure Git is installed on your machine to clone the repository.
++ **Environment Setup**:
+
+  Follow the official Flutter setup guide to ensure your environment is correctly set up for Flutter development.
+
 ### Installation
-1. Clone the repo
+To get the project up and running locally, follow these steps:
+
+1. **Clone the Repository**:
+
+
+    Open your terminal and run the following command to clone the repository:
     ```
-   <https://github.com/orgs/senior-project-AnimoGram/repositories>```
-2. ''
+   git clone https://github.com/senior-project-AnimoGram/Frontend.git
+   cd Frontend
+2. **Install Dependencies:**
+
+   
+   Navigate to the project directory and run the following command to install the necessary dependencies:
    ```
+   flutter pub get
+3. **Run the App:**
+
+   You can now run the app on an emulator or a physical device. Ensure you have an emulator running or a physical device connected, then execute:
    ```
-3. ''
-   ```
-   ```
+   flutter run
+### Additional Setup
+1. **Configure Assets:**
+
+
+    Ensure the following asset directories exist in your project structure:
+
+    + **'asset/img/'**
+    + **'asset/mypost/'**
+    + **'asset/model/'**
+    + **'asset/filter/'**
+      
+    These directories should contain the relevant assets required by the app.
+
+2. **TFLite Model:**
+
+   Place your TensorFlow Lite model in the **'asset/model/'** directory. Ensure the model file name matches the one specified in your code (**'emotion_model.tflite'**).
+
+3. **Permissions:**
+
+   Make sure to configure the necessary permissions in your Android and iOS configuration files for accessing the camera, gallery, and location services.
+
+### Troubleshooting
+If you encounter any issues during the setup or run process, consider the following steps:
+
++ Ensure all prerequisites are installed and configured correctly.
++ Verify that all dependencies are correctly installed by running **'flutter pub get'**.
++ Ensure your Flutter environment is correctly set up by running **'flutter doctor'** and resolving any issues reported.
+  
+For additional help and support, refer to the official Flutter documentation or raise an issue in the repository.
 ## Library
 + Dog face recognition : <https://github.com/tureckova/Doggie-smile>
 + *dlib* for loading dog face recognition model
