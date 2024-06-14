@@ -43,6 +43,7 @@ Animogram, a compound word of animal, emotion, and Instagram, is the perfect pro
 ## Contributors
 👨‍💻조윤상 
   jsy4407@naver.com
+  
 🙋‍♂️구건호
   qwer159874@gachon.ac.kr
 
